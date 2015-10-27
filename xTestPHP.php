@@ -1,7 +1,5 @@
 <?php
-/*
- $q = $_REQUEST["q"];
-  echo $q;
-*/
-echo "This is only a test";
+  //$q = json_decode($_REQUEST["str"]);
+  $q = $_REQUEST["q"];
+  var_dump(json_decode($q));
 ?>
